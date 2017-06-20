@@ -67,7 +67,7 @@ pom.xmlに以下の内容を追記することでコンパイルに成功した�
 ## テスト
 
 ```
-mvn test
+$ mvn test
 ```
 
 テストが実行される。  
@@ -78,7 +78,7 @@ mvn test
 ## jarの作成
 
 ```
-mvn package
+$ mvn package
 ```
 
 target以下にjarを作成する。  
@@ -120,5 +120,5 @@ pom.xmlへ追記。
 ## jarの実行
 
 ```
-java -jar hello-1.0-SNAPSHOT-jar-with-dependencies.jar
+$ java -jar hello-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
